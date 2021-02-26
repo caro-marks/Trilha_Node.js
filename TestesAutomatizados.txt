@@ -1,0 +1,10 @@
+Sobre Testes Automatizados
+
+1 - Testes unitários (BE)
+    TDD - Desenvolvimento orientado a testes
+
+2 - Testes de integração (BE)
+    requisição -> rotas -> controladores -> repositorio
+    repositorio -> controladores -> resposta
+
+3 - Ponta a Ponta (E2E) (FE)
