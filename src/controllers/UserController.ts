@@ -1,8 +1,8 @@
 import { Request, Response } from 'express'; // Express para as requisições e respostas
-import { getCustomRepository, UpdateDateColumn } from 'typeorm';
-import { UsersRepository } from '../repositories/UsersRepository'; // Aqui onde está os comandos de acesso o banco de dados por meio do TypeORM de User
+import { getCustomRepository } from 'typeorm';
 import * as yup from 'yup';
 import { AppError } from '../errors/AppError';
+import { UsersRepository } from '../repositories/UsersRepository'; // Aqui onde está os comandos de acesso o banco de dados por meio do TypeORM de User
 class UserController {
 
     async create(request: Request, response: Response) {
